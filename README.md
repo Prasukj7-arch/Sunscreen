@@ -57,6 +57,7 @@ This is a simple web application that tells users whether they need to apply sun
 
 ## 📁 Project Structure
 
+```bash
 Sunscreen/
 ├── public/
 │ └── styles.css # External CSS
@@ -66,12 +67,17 @@ Sunscreen/
 ├── package.json
 └── README.md
 
+
 ## 🌤 API Used  
-**OpenWeatherMap One Call API**  
-Used to retrieve UV index based on user's location input (city and country code).  
-[Visit API Documentation](https://openweathermap.org/api/one-call-api)
-**OpenUV API**  
-[Visit API Documentation](https://www.openuv.io/dashboard)
+
+- **OpenWeatherMap One Call API**  
+  Used to retrieve UV index based on user's location input (city and country code).  
+  [Visit API Documentation](https://openweathermap.org/api/one-call-api)
+
+- **OpenUV API**  
+  Provides detailed UV index data.  
+  [Visit API Documentation](https://www.openuv.io/dashboard)
+
 
 
 ## 🙋‍♂️ Author  
