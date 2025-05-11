@@ -20,7 +20,7 @@ This is a simple web application that tells users whether they need to apply sun
 
 ## 📷 Screenshots
 
-![Form Screenshot](https://github.com/username/repository/raw/main/images/Screenshot%202025-05-11%20201835.jpg)
+![Form Screenshot](https://github.com/Prasukj7-arch/Sunscreen/raw/main/images/Screenshot%202025-05-11%20201835.jpg)
 
 ## 🌍 How It Works
 
