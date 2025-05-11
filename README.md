@@ -20,7 +20,7 @@ This is a simple web application that tells users whether they need to apply sun
 
 ## 📷 Screenshots
 
-![Form Screenshot](images/Screenshot 2025-05-11 201835.jpg)
+![Form Screenshot](./images/Screenshot 2025-05-11 201835.jpg)
 
 ## 🌍 How It Works
 
