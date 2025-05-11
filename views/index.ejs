@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunscreen Application Checker</title>
+    <link rel="stylesheet" href="styles/main.css">         
+</head>
+<body>
+    <div class="container">
+        <h2>Application of Sunscreen</h2>
+
+        <form action="/submit" method="post">
+            <label for="city">City Name:</label>
+            <input type="text" id="city" name="city" required>
+
+            <label for="country">Country Code:</label>
+            <input type="text" id="country" name="country" required>
+
+            <input type="submit" value="Check Forecast" formaction="/submit">
+        </form>
+
+        <div id="result">
+            <% if(locals.uvi != null){ %>
+                <% if(locals.uvi <= 2){ %>
+                    <div class="result-message success">
+                        <span class="emoji">🌥️</span>
+                        <h2>No sunscreen needed</h2>
+                    </div>
+                <% } else { %>
+                    <div class="result-message warning">
+                        <span class="emoji">☀️🧴</span>
+                        <h2>Yes, sunscreen recommended</h2>
+                    </div>
+                <% } %>
+            <% } else { %>
+                <div class="result-message neutral">
+                    <span class="emoji">📍</span>
+                    <h2>Please enter your location</h2>
+                </div>
+            <% } %>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,118 @@
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background: linear-gradient(to right, #fceabb, #f8b500);
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container {
+        background: #fff;
+        padding: 2.5rem;
+        border-radius: 12px;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        max-width: 400px;
+        width: 100%;
+        text-align: center;
+    }
+
+    h2 {
+        margin-bottom: 1.5rem;
+        color: #333;
+    }
+
+    label {
+        display: block;
+        text-align: left;
+        margin-bottom: 0.5rem;
+        font-weight: 500;
+    }
+
+    input[type="text"] {
+        width: 100%;
+        padding: 0.6rem;
+        margin-bottom: 1.2rem;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        font-size: 1rem;
+    }
+
+    input[type="submit"] {
+        width: 100%;
+        padding: 0.7rem;
+        background-color: #f8b500;
+        border: none;
+        color: white;
+        font-size: 1rem;
+        font-weight: bold;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    input[type="submit"]:hover {
+        background-color: #e09f00;
+    }
+
+    #result {
+        margin-top: 1.5rem;
+    }
+
+    #result h2 {
+        color: #444;
+    }
+
+    /* Enhanced result message styles */
+    .result-message {
+        margin-top: 1.5rem;
+        padding: 1.2rem;
+        border-radius: 10px;
+        font-size: 1.2rem;
+        font-weight: 500;
+        animation: fadeInUp 0.8s ease-in-out;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .result-message .emoji {
+        font-size: 2.5rem;
+        margin-bottom: 0.5rem;
+        animation: bounce 1s infinite alternate;
+    }
+
+    .result-message.success {
+        background-color: #d4edda;
+        color: #155724;
+    }
+
+    .result-message.warning {
+        background-color: #fff3cd;
+        color: #856404;
+    }
+
+    .result-message.neutral {
+        background-color: #e2e3e5;
+        color: #383d41;
+    }
+
+    /* Animations */
+    @keyframes fadeInUp {
+        from {
+            opacity: 0;
+            transform: translateY(30px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    @keyframes bounce {
+        0% { transform: translateY(0); }
+        100% { transform: translateY(-5px); }
+    }
