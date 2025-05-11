@@ -55,6 +55,20 @@ This is a simple web application that tells users whether they need to apply sun
 
 5. Visit http://localhost:3000 in your browser.
 
+## 🌤 API Used  
+
+- **OpenWeatherMap One Call API**  
+  Used to retrieve UV index based on user's location input (city and country code).  
+  [Visit API Documentation](https://openweathermap.org/api/one-call-api)
+
+- **OpenUV API**  
+  Provides detailed UV index data.  
+  [Visit API Documentation](https://www.openuv.io/dashboard)
+
+## 🙋‍♂️ Author  
+**Prasuk Jain**  
+GitHub: [@Prasukj7-arch](https://github.com/Prasukj7-arch)
+
 ## 📁 Project Structure
 
 ```bash
@@ -66,20 +80,3 @@ Sunscreen/
 ├── app.js # Main server file
 ├── package.json
 └── README.md
-
-
-## 🌤 API Used  
-
-- **OpenWeatherMap One Call API**  
-  Used to retrieve UV index based on user's location input (city and country code).  
-  [Visit API Documentation](https://openweathermap.org/api/one-call-api)
-
-- **OpenUV API**  
-  Provides detailed UV index data.  
-  [Visit API Documentation](https://www.openuv.io/dashboard)
-
-
-
-## 🙋‍♂️ Author  
-**Prasuk Jain**  
-GitHub: [@Prasukj7-arch](https://github.com/Prasukj7-arch)
